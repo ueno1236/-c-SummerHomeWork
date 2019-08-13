@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include"1~20.h"
 
 class Character
 {
@@ -14,7 +14,7 @@ public:
 };
 
 
-int main() {
+void one() {
 	printf("問1:メンバ変数とは\nclassに格納された変数\n\n");
 	
 	printf("問2:メンバ関数とは\nclassに格納された関数\n\n");
@@ -56,5 +56,4 @@ int main() {
 
 	printf("問20:クラス内のみ使用可\n\n");
 
-	return 0;
 }

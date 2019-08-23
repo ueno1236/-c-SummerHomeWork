@@ -57,6 +57,7 @@ private:
 };
 
 //–â‚U
+/*
 class Character
 {
 public:
@@ -64,7 +65,7 @@ public:
 	
 
 private:
-	char m_Name[32];
+	char* m_Name;
 	int m_Hp;
 	int m_Mp;
 	int m_At;
@@ -73,13 +74,40 @@ private:
 
 Character::Character()
 {
-	m_Name[32] = "–¼–³‚µ";
+	strcpy
+
+
+	m_Name = "–¼–³‚µ";
 	m_Hp = 0;
 	m_Mp = 0;
 	m_At = 0;
 	m_Deff = 0;
 }
 
+*/
 
+//–â‚V
 
+class Jugyoin
+{
+public:
+	Jugyoin(char* name);
+	~Jugyoin();
+
+private:
+	int m_ID;
+	char m_Name[32];
+};
+
+Jugyoin::Jugyoin(char* name)
+{
+	static int EntryID = 1;
+	m_ID = EntryID;
+	EntryID++;
+	m_Name[32] = name;
+}
+
+Jugyoin::~Jugyoin()
+{
+}
 #endif

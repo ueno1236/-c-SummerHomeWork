@@ -50,7 +50,7 @@ void Drawer::PrintParameter()
 
 	printf("–â5:%f\n\n",m_Scale);
 }
-
+/*
 //–â‚U
 Character::Character()
 {
@@ -61,4 +61,4 @@ Character::Character()
 	m_Deff = 0;
 }
 
-
+*/

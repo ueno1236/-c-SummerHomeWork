@@ -9,6 +9,12 @@ int main() {
 
 	two();
 
+	KADEN kaden;
+	YODOBASHI yodobashi;
+
+	kaden.PrintShopname();
+	yodobashi.PrintShopname();
+
 	three();
 
 	return 0;

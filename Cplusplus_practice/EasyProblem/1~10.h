@@ -87,7 +87,7 @@ Character::Character()
 */
 
 //–â‚V
-
+/*
 class Jugyoin
 {
 public:
@@ -110,4 +110,5 @@ Jugyoin::Jugyoin(char* name)
 Jugyoin::~Jugyoin()
 {
 }
+*/
 #endif
